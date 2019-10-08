@@ -55,7 +55,7 @@ print(accuracy_score(y_test, y_pred))
 ```
 
 ## Examples
-You can find some simple examples on our [https://github.com/BorgwardtLab/WTK/tree/master/examples](examples site) and an examples [https://github.com/BorgwardtLab/WTK/blob/master/examples/example_notebook.ipynb](jupyter notebook). In case the notebook can't be rendered, visit it on [https://nbviewer.jupyter.org/github/BorgwardtLab/WTK/blob/master/examples/example_notebook.ipynb](nbviewer).
+You can find some simple examples on our [examples site](https://github.com/BorgwardtLab/WTK/tree/master/examples) and an examples [jupyter notebook](https://github.com/BorgwardtLab/WTK/blob/master/examples/example_notebook.ipynb). In case the notebook can't be rendered, visit it on [nbviewer](https://nbviewer.jupyter.org/github/BorgwardtLab/WTK/blob/master/examples/example_notebook.ipynb).
 
 ## Help
 
