@@ -3,12 +3,14 @@
 ## Dependencies
 
 WTK relies on the following dependencies:
-- numpy
-- scikit-learn
-- pot
-- cython
+
+- `numpy`
+- `scikit-learn`
+- `POT`
+- `cython`
 
 ## Installation
+
 The easiest way is to install WTK from the Python Package Index (PyPI) via
 
 ```
@@ -21,14 +23,14 @@ Additionally, we provide a way to run a grid search for a krein space SVM. `krei
 cross-validation on the training set to determine the best hyperparameters. Then, its classification accuracy is
 computed on the test set.
 
-```
+```python
 from wtk import transform_to_dist_matrix
 from wtk.utilities import get_ucr_dataset, krein_svm_grid_search
 
 # Read UCR data
 X_train, y_train, X_test, y_test = get_ucr_dataset('../data/UCR/raw_data/', 'DistalPhalanxTW')
 
-# Compute wasserstein distance matrices with subsequent length k=10
+# Compute wasserstein distance matrices with subsequence length k=10
 D_train, D_test = transform_to_dist_matrix(X_train, X_test, 10)
 
 # Run the grid search
@@ -36,7 +38,8 @@ svm_clf = krein_svm_grid_search(D_train, D_test, y_train, y_test)
 ```
 
 Alternatively, you can get the kernel matrices computed from the distance matrices and train your own classifier.
-```
+
+```python
 from sklearn.svm import SVC
 from wtk import get_kernel_matrix
 from sklearn.metrics import accuracy_score
@@ -55,7 +58,13 @@ print(accuracy_score(y_test, y_pred))
 ```
 
 ## Examples
-You can find some simple examples on our [examples site](https://github.com/BorgwardtLab/WTK/tree/master/examples) and an examples [jupyter notebook](https://github.com/BorgwardtLab/WTK/blob/master/examples/example_notebook.ipynb). In case the notebook can't be rendered, visit it on [nbviewer](https://nbviewer.jupyter.org/github/BorgwardtLab/WTK/blob/master/examples/example_notebook.ipynb).
+
+You can find some simple examples on our [examples
+page](https://github.com/BorgwardtLab/WTK/tree/master/examples) and an
+examples [jupyter
+notebook](https://github.com/BorgwardtLab/WTK/blob/master/examples/example_notebook.ipynb).
+In case the notebook cannot be rendered, please visit it on
+[nbviewer](https://nbviewer.jupyter.org/github/BorgwardtLab/WTK/blob/master/examples/example_notebook.ipynb).
 
 ## Help
 
@@ -72,4 +81,4 @@ Computational Biology Lab](https://www.bsse.ethz.ch/mlcb):
 
 - Christian Bock ([GitHub](https://github.com/chrisby))
 - Matteo Togninalli ([GitHub](https://github.com/mtog))
-- Bastian Rieck ([GitHub](https://github.com/Submanifold))
+- Bastian Rieck ([GitHub](https://github.com/Pseudomanifold))
