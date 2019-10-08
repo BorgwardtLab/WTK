@@ -82,3 +82,15 @@ Computational Biology Lab](https://www.bsse.ethz.ch/mlcb):
 - Christian Bock ([GitHub](https://github.com/chrisby))
 - Matteo Togninalli ([GitHub](https://github.com/mtog))
 - Bastian Rieck ([GitHub](https://github.com/Pseudomanifold))
+
+## Citation
+Please use the following BibTeX citation when using our method or comparing against it:
+```
+@InProceedings{Bock19,
+  author    = {Bock, Christian and Togninalli, Matteo and Ghisu, Elisabetta and Gumbsch, Thomas and Rieck, Bastian and Borgwardt, Karsten},
+  title     = {A Wasserstein Subsequence Kernel for Time Series},
+  booktitle = {Proceedings of the 19th IEEE International Conference on Data Mining~(ICDM)},
+  year      = {2019},
+  pubstate  = {inpress},
+}
+```
