@@ -1,0 +1,4 @@
+Cython==0.29.13
+numpy==1.17.2
+POT==0.6.0
+scikit-learn==0.21.3

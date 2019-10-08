@@ -1,0 +1,24 @@
+[build-system]
+requires = ['flit', 'cython', 'numpy', 'POT']
+build-backend = 'flit.buildapi'
+
+[tool.flit.metadata]
+module = 'wtk'
+author = 'Christian Bock'
+author-email = 'christian.bock@bsse.ethz.ch'
+home-page = 'https://github.com/BorgwardtLab/WTK'
+classifiers = [
+	'License :: OSI Approved :: MIT License',
+	'Programming Language :: Python :: 3'
+]
+requires=[
+	'Cython',
+	'POT',
+	'numpy',
+	'scikit-learn'
+]
+description-file = 'README.md'
+requires-python = '>=3.6'
+
+[tool.flit.metadata.urls]
+Issues = 'https://github.com/BorgwardtLab/WTK/issues'
