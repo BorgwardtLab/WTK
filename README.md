@@ -54,6 +54,9 @@ y_pred = clf.predict(K_test)
 print(accuracy_score(y_test, y_pred))
 ```
 
+## Examples
+You can find some simple examples on our [https://github.com/BorgwardtLab/WTK/tree/master/examples](examples site) and an examples [https://github.com/BorgwardtLab/WTK/blob/master/examples/example_notebook.ipynb](jupyter notebook). In case the notebook can't be rendered, visit it on [https://nbviewer.jupyter.org/github/BorgwardtLab/WTK/blob/master/examples/example_notebook.ipynb](nbviewer).
+
 ## Help
 
 If you have questions concerning WTK or you encounter problems when
