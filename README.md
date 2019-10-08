@@ -1,4 +1,5 @@
 # Wasserstein Time Series Kernel
+A preprint version of the paper acceted at ICDM 2019 can be found [here](https://christian.bock.ml/publications/ICDM2019_WTK.pdf).
 
 ## Dependencies
 
