@@ -65,8 +65,7 @@ us to help you.
 ## Contributors
 
 WTK is developed and maintained by members of the [Machine Learning and
-Computational Biology Lab](https://www.bsse.ethz.ch/mlcb) of [Prof. Dr.
-Karsten Borgwardt](https://www.bsse.ethz.ch/mlcb/karsten.html):
+Computational Biology Lab](https://www.bsse.ethz.ch/mlcb):
 
 - Christian Bock ([GitHub](https://github.com/chrisby))
 - Matteo Togninalli ([GitHub](https://github.com/mtog))
