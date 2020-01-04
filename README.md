@@ -1,5 +1,5 @@
 # Wasserstein Time Series Kernel
-A preprint version of the paper acceted at ICDM 2019 can be found [here](https://christian.bock.ml/publications/ICDM2019_WTK.pdf).
+A preprint version of the paper accepted at ICDM 2019 can be found [here](https://christian.bock.ml/publications/ICDM2019_WTK.pdf).
 
 ## Dependencies
 
@@ -85,7 +85,7 @@ Computational Biology Lab](https://www.bsse.ethz.ch/mlcb):
 - Bastian Rieck ([GitHub](https://github.com/Pseudomanifold))
 
 ## Citation
-Please use the following BibTeX citation when using our method or comparing against it:
+Please use the following BibTeX citation when using our method or comparing to it:
 ```
 @InProceedings{Bock19,
   author    = {Bock, Christian and Togninalli, Matteo and Ghisu, Elisabetta and Gumbsch, Thomas and Rieck, Bastian and Borgwardt, Karsten},
